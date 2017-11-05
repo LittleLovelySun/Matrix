@@ -64,11 +64,11 @@ ostream& operator<<(ostream& output, const Matrix &mat){
 	return output;
 }
 
-istream& operator >>(istream &input, const Matrix &mat){
+/*istream& operator >>(istream &input, const Matrix &mat){
 	for (int i = 0; i < row; i++)
 		for (int j = 0; j < col; j++) {
 			cout << "Enter mat[" << i << "][" << j << "]: ";
 			input >> mat[i][j];
 	}
 	return input;
-}
+}*/
